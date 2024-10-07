@@ -17,8 +17,8 @@ public class CurrencyConverter {
         
         int choice = scanner.nextInt();
         
-        final double usdToInrRate = 83.50; // example rate
-        final double eurToUsdRate = 1.05; // example rate
+        final double usdToInrRate = 83.50; 
+        final double eurToUsdRate = 1.05; 
         
         if (choice == 1) {
             System.out.print("Enter amount in USD: ");
